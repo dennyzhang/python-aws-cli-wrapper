@@ -9,9 +9,11 @@
 ## Description :
 ## --
 ## Created : <2017-10-31>
-## Updated: Time-stamp: <2017-10-31 16:15:40>
+## Updated: Time-stamp: <2017-10-31 16:23:26>
 ##-------------------------------------------------------------------
 set -e
 
-python route53_geneate_json.py --cname "tenant888510delete83092.carol.ai." --value "bematech.carol.ai"
+cname="mytest.abc.com."
+dns_value="fake.test.ai"
+python route53_geneate_json.py --cname "$cname" --value "$dns_value"
 ## File: hello ends
