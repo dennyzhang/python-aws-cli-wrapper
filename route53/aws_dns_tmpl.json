@@ -1,0 +1,18 @@
+{
+    "Comment": "Remove Useless Record",
+    "Changes": [
+        {
+            "Action": "DELETE",
+            "ResourceRecordSet": {
+                "Name": "myfake.test.ai.",
+                "Type": "CNAME",
+                "TTL": 300,
+                "ResourceRecords": [
+                    {
+                        "Value": "fake_value.test.com."
+                    }
+                ]
+            }
+        }
+    ]
+}
